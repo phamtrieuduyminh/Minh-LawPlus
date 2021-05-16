@@ -1,0 +1,20 @@
+/* Button Default */
+
+.btn {
+    height: 50px;
+    min-width: 170px;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    font-weight: 700;
+    background-color: #c8ac48;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-family: 'Lato', sans-serif;
+}
+
+.btn:hover {
+    background-color: #c8ac4800;
+}

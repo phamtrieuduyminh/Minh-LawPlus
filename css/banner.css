@@ -44,8 +44,7 @@
 
 .case-text {
     color: #ffffff;
-    height: 230px;
-    background-color: #304771;
+    min-height: 230px;
     padding-top: 50px;
     padding-bottom: 60px;
 }
@@ -68,6 +67,14 @@
     width: 50px;
 }
 
-.col-4 {
-    margin: 0px;
+.bg-mid {
+    background-color: #283c61;
+}
+
+.bg-right {
+    background-color: #1e3051;
+}
+
+.bg-left {
+    background-color: #304771;
 }

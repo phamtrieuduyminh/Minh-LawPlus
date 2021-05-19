@@ -18,3 +18,22 @@
 .btn:hover {
     background-color: #c8ac4800;
 }
+
+.blue-hover {}
+
+.blue-hover:hover {
+    background-color: #c8ac4800;
+    color: #304771;
+    border: 1px solid #304771;
+}
+
+.blue {
+    background: #304771;
+    border: none;
+}
+
+.blue:hover {
+    color: #c8ac48;
+    background-color: #c8ac4800;
+    border: 2px solid #c8ac48;
+}

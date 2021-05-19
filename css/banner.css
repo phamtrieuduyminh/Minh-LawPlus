@@ -1,7 +1,7 @@
 .banner {
     width: 100%;
     position: relative;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 }
 
 .banner-img {
@@ -24,7 +24,7 @@
 .banner-text h2 {
     font-family: 'Libre Baskerville', serif;
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 900;
     text-transform: uppercase;
 }
 
@@ -33,49 +33,4 @@
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
     font-size: 18px;
-}
-
-.banner-case {
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    top: 100%;
-    transform: translateY(-50%);
-}
-
-.case-text {
-    color: #ffffff;
-    min-height: 250px;
-    padding-top: 50px;
-    padding-bottom: 60px;
-}
-
-.case-text h2 {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.case-text p {
-    width: 300px;
-    margin-bottom: 14px;
-    font-family: 'Lato', sans-serif;
-    font-size: 14px;
-    margin: 0px auto;
-}
-
-.case-text img {
-    width: 50px;
-}
-
-.bg-mid {
-    background-color: #283c61;
-}
-
-.bg-right {
-    background-color: #1e3051;
-}
-
-.bg-left {
-    background-color: #304771;
 }

@@ -1,0 +1,121 @@
+        .banner-case {
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            top: 100%;
+            transform: translateY(-50%);
+        }
+        
+        .case-text {
+            color: #ffffff;
+            min-height: 250px;
+            padding-top: 50px;
+            padding-bottom: 60px;
+        }
+        
+        .case-text h2 {
+            font-family: 'Libre Baskerville', serif;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        
+        .case-text p {
+            width: 300px;
+            margin-bottom: 14px;
+            font-family: 'Lato', sans-serif;
+            font-size: 14px;
+            margin: 0px auto;
+        }
+        
+        .case-text img {
+            width: 50px;
+        }
+        
+        .bg-mid {
+            background-color: #283c61;
+        }
+        
+        .bg-right {
+            background-color: #1e3051;
+        }
+        
+        .bg-left {
+            background-color: #304771;
+        }
+        
+        .case-bg-light {
+            background-color: #30477100;
+            color: #3b424d;
+            padding: 10px 0px 10px 0px;
+            transition: all 0.5s;
+            height: 230px;
+        }
+        
+        .case-bg-light p {
+            width: 395px;
+            color: #747981;
+        }
+        
+        .case-bg-light h2 {
+            font-size: 20px;
+        }
+        
+        .case-bg-light>span {
+            color: #c8ac49;
+            font-size: 0px;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        
+        .line-h {
+            width: 2px;
+            height: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #c8ac49;
+            margin-bottom: 5px;
+        }
+        
+        .case-img h2 {
+            color: #e9e9e9;
+            font-size: 36px;
+            font-weight: bold;
+        }
+        
+        .case-bg-light:hover {
+            background-color: #304771f8;
+        }
+        
+        .case-bg-light:hover p {
+            color: #f1f1f1b7;
+        }
+        
+        .case-bg-light:hover h2 {
+            color: #f1f1f1;
+        }
+        
+        .case-bg-light:hover .line-h {
+            height: 0px;
+            transition: height 0.3s;
+        }
+        
+        .case-bg-light:hover .case-img h2 {
+            font-size: 0px;
+            transition: font-size 0.5s;
+        }
+        
+        .case-bg-light:hover .case-img {
+            margin-top: 40px;
+            margin-bottom: 35px;
+            transition: font-size 0.5s;
+        }
+        
+        .case-bg-light:hover.case-bg-light>span {
+            font-size: 16px;
+            text-decoration: underline;
+            transition: all 0.5s;
+        }
+        
+        .d-none {
+            text-decoration: none;
+        }
